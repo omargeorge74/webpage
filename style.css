@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+
+header h1 { /*this is the header*/
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  margin: 23px;
+  padding: 30px;
+  color: rgb(155, 117, 13)
+}
+
+main header {/* this is the h1*/
+  text-align: center;
+  color: rgb(155, 117, 13);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  
+}
+
+
+img {/* this is the image */
+  border-radius: 25px;
+}
+
+body{/*this is the background color */
+  background-color: gainsboro;
+  margin: 45px;
+}
+
+hr{/*this is the lines that seperate the sections */
+  height: 4px;
+  background-color: black;
+}
+
+a {/*this is the links*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+/* links pseudo code*/
+a:link    { color: blue;  }
+a:visited { color: rgb(155, 117, 13);   }
+a:hover   { color: rgb(28, 221, 195); }
+a:active  { color: rgb(192, 255, 250);  }
+
+footer{/*the footer*/
+  background-color: rgb(207, 216, 215);
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+  margin: 23px;
+  padding: 30px;
+  color: rgb(155, 117, 13);
+}
+.paragraph{/*the class paragraph*/
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(196, 150, 81);
+  text-align: center;
+
+}
